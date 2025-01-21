@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.842);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    text-align: center;
+    border-radius: 10px;
+    background: linear-gradient(rgb(0, 255, 200),rgb(58, 0, 128));
+    
+    padding: 30px;
+}
+
+#head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 9px;
+    height: 60px;
+    margin-left: 5px;
+}
+#search img{
+    height: 20px;
+    width: 20px;
+    
+}
+
+button{
+    border: none;
+    height: 30px;
+    width: 30px;
+    background-size: cover;
+    border-radius: 50%;
+    margin-left: 40px;
+    background-color: white;
+    cursor: pointer;
+}
+
+input[type="text"]{
+    padding: 5px;
+    border: none;
+    border-radius: 12px;
+    height: 34px;
+    width: 170px;
+    font-size: 16px;
+    
+}
+
+#sun{
+    height: 100px;
+    width: 335px;
+    display: flex;
+    justify-content: center;
+}
+
+#sun img{
+    height: 100px;
+}
+
+.temp{
+    margin-top: 10px;
+}
+
+.temp h3{
+    font-size: 40px;
+}
+
+.coun{
+    margin-top: 9px;
+}
+
+.coun p{
+    font-size: 25px;
+}
+
+#foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#foot1 img{
+    height: 40px;
+}
+#foot2 img{
+    height: 40px;
+}
+
+#foot1{
+    color: rgba(255, 255, 255, 0.649);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#foot2{
+    color: rgba(255, 255, 255, 0.649);
+    margin-left: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#foot1 div{
+    margin-left: 5px;
+}
+#foot2 div{
+    margin-left: 5px;
+}
