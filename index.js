@@ -13,19 +13,19 @@ async function call() {
    document.querySelector("#speed").innerHTML = data.wind.speed
    
    if(data.weather[0].main == "Clear"){
-        weather.src = "clear.png";
+        weather.src = "assets/clear.png";
    }
    else if(data.weather[0].main == "Clouds"){
-        weather.src = "clouds.png";
+        weather.src = "assets/clouds.png";
    }
    else if(data.weather[0].main == "Drizzle"){
-        weather.src = "drizzle.png";
+        weather.src = "assets/drizzle.png";
    }
    else if(data.weather[0].main == "Smoke"){
-        weather.src = "mist.png";
+        weather.src = "assets/mist.png";
    }
    else if(data.weather[0].main == "Rain"){
-        weather.src = "rain.png";
+        weather.src = "assets/rain.png";
    }
 }
 
